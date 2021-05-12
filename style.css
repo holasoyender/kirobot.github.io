@@ -3350,6 +3350,10 @@
                 color: #3f3f3f;
                 transition: color 0.2s ease-in-out;
             }
+            aa {
+                color: #ffffff;
+                transition: color 0.2s ease-in-out;
+            }
 
             @media print {
                 a[data-print]::after {
