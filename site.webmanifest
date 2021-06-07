@@ -1,0 +1,26 @@
+{
+    "name": "KiroBot",
+    "description": "KiroBot | Bot de Discord",
+    "short_name":"KiroBot",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "lang": "es-ES",
+    "icons":
+    [
+        {
+            "src": "assets/img/android-chrome-192x192.png",
+            "sizes":"192x192",
+            "type":"image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src":"assets/img/android-chrome-512x512.png",
+            "sizes":"512x512",
+            "type":"image/png",
+            "purpose": "any maskable"
+        }
+    ],
+        "theme_color":"#AC77FE",
+        "background_color":"#23272A"
+}
