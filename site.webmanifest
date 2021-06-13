@@ -2,7 +2,7 @@
     "name": "KiroBot",
     "description": "KiroBot | Bot de Discord",
     "short_name":"KiroBot",
-    "start_url": "/",
+    "start_url":"/",
     "scope": "/",
     "display": "standalone",
     "lang": "es-ES",
@@ -21,6 +21,6 @@
             "purpose": "any maskable"
         }
     ],
-        "theme_color":"#AC77FE",
-        "background_color":"#23272A"
+    "theme_color":"#AC77FE",
+    "background_color":"#23272A"
 }
