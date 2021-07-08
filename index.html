@@ -19,11 +19,11 @@
     <body>
                         <section class="section banner">
                             <div class="container">
-                                <a href="https://discord.com/invite/Rwy8J35" class="hero-body mrk">Soporte  </a>
+                                <a href="https://discord.com/invite/Rwy8J35" rel="noopener" target="_blank" class="hero-body mrk">Soporte  </a>
                                  <a href="https://www.patreon.com/holasoyender" class="hero-body mrk">Donaciones  </a>
                                  <a href="https://status.kirobot.cc/" class="hero-body mrk">Estado  </a>
                                 <a href="https://docs.kirobot.cc/" class="hero-body mrk">Documentación  </a>
-                                <a href="https://discord.com/api/oauth2/authorize?client_id=708051559623163914&permissions=8&scope=bot" target="_blank" rel="noopener" class="title11"><code>Añadir a tu servidor</code></a>
+                                <a onclick="invPopup()" target="_blank" rel="noopener" class="title11"><code>Añadir a tu servidor</code></a>
                             </div>
                         </section>
                         <section class="hero">
@@ -32,14 +32,14 @@
                                     <article class="media">
                                         <div class="media-content">
                                             <h1 class="title">
-                                                <a href="https://discord.com/api/oauth2/authorize?client_id=708051559623163914&permissions=8&scope=bot" target="_blank" rel="noopener">deKiro
+                                                <a onclick="invPopup()" target="_blank" rel="noopener">deKiro
                                                  </a>
                                             </h1>
                                             <h2 class="subtitle">Bot de discord customizable y en Español
                                                  </h2>
                                         </div>
                                         <div class="media-right">
-                                            <a href="https://discord.com/api/oauth2/authorize?client_id=708051559623163914&permissions=8&scope=bot" target="_blank" rel="noopener"><img src="assets/img/deKiro.png" alt="deKiro Logo"> </a>
+                                            <a onclick="invPopup()" target="_blank" rel="noopener"><img src="assets/img/deKiro.png" alt="deKiro Logo"> </a>
                                         </div>
                                     </article>
                                 </div>
@@ -136,6 +136,7 @@
         if("serviceWorker" in navigator) {
             navigator.serviceWorker.register("./sw.js")
         }
-    </script>
+        function invPopup() { popupWindow = window.open("https://discord.com/api/oauth2/authorize?client_id=708051559623163914&permissions=8&scope=bot",'popUpWindow','height=650,width=500,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes') }
+   </script>
     </body>
 </html>
