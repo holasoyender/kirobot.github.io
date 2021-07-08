@@ -1,7 +1,7 @@
 {
-    "name": "KiroBot",
-    "description": "KiroBot | Bot de Discord",
-    "short_name":"KiroBot",
+    "name": "deKiro",
+    "description": "deKiro | Bot de Discord",
+    "short_name":"deKiro",
     "start_url":"/",
     "scope": "/",
     "display": "standalone",
