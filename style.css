@@ -11,6 +11,28 @@
   background-color: #3f3f3f;
 }
 
+.entity-header__image {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0);
+    -webkit-transform: translatey(-30px);
+    transform: translatey(-30px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
 h1,
 h2,
 h3,
